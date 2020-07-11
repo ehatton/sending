@@ -1,0 +1,135 @@
+ID   CXE1_DANRE              Unreviewed;       207 AA.
+AC   U3JA75;
+DT   13-NOV-2013, integrated into UniProtKB/TrEMBL.
+DT   13-NOV-2013, sequence version 1.
+DT   25-OCT-2017, entry version 36.
+DE   RecName: Full=Gap junction epsilon-1 protein {ECO:0000250|UniProtKB:Q9CX92};
+DE   AltName: Full=Connexin-23 {ECO:0000303|PubMed:18068130};
+GN   Name=cx23 {ECO:0000303|PubMed:18068130,
+GN   ECO:0000312|ZFIN:ZDB-GENE-050320-121};
+OS   Danio rerio (Zebrafish) (Brachydanio rerio).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Cypriniformes;
+OC   Cyprinidae; Danio.
+OX   NCBI_TaxID=7955 {ECO:0000312|Proteomes:UP000000437};
+RN   [2] {ECO:0000312|Proteomes:UP000000437}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Tuebingen {ECO:0000312|Proteomes:UP000000437};
+RX   PubMed=23594743; DOI=10.1038/nature12111;
+RA   Howe K., Clark M.D., Torroja C.F., Torrance J., Berthelot C.,
+RA   Muffato M., Collins J.E., Humphray S., McLaren K., Matthews L.,
+RA   McLaren S., Sealy I., Caccamo M., Churcher C., Scott C., Barrett J.C.,
+RA   Koch R., Rauch G.J., White S., Chow W., Kilian B., Quintais L.T.,
+RA   Guerra-Assuncao J.A., Zhou Y., Gu Y., Yen J., Vogel J.H., Eyre T.,
+RA   Redmond S., Banerjee R., Chi J., Fu B., Langley E., Maguire S.F.,
+RA   Laird G.K., Lloyd D., Kenyon E., Donaldson S., Sehra H.,
+RA   Almeida-King J., Loveland J., Trevanion S., Jones M., Quail M.,
+RA   Willey D., Hunt A., Burton J., Sims S., McLay K., Plumb B., Davis J.,
+RA   Clee C., Oliver K., Clark R., Riddle C., Eliott D., Threadgold G.,
+RA   Harden G., Ware D., Mortimer B., Kerry G., Heath P., Phillimore B.,
+RA   Tracey A., Corby N., Dunn M., Johnson C., Wood J., Clark S., Pelan S.,
+RA   Griffiths G., Smith M., Glithero R., Howden P., Barker N., Stevens C.,
+RA   Harley J., Holt K., Panagiotidis G., Lovell J., Beasley H.,
+RA   Henderson C., Gordon D., Auger K., Wright D., Collins J., Raisen C.,
+RA   Dyer L., Leung K., Robertson L., Ambridge K., Leongamornlert D.,
+RA   McGuire S., Gilderthorp R., Griffiths C., Manthravadi D., Nichol S.,
+RA   Barker G., Whitehead S., Kay M., Brown J., Murnane C., Gray E.,
+RA   Humphries M., Sycamore N., Barker D., Saunders D., Wallis J.,
+RA   Babbage A., Hammond S., Mashreghi-Mohammadi M., Barr L., Martin S.,
+RA   Wray P., Ellington A., Matthews N., Ellwood M., Woodmansey R.,
+RA   Clark G., Cooper J., Tromans A., Grafham D., Skuce C., Pandian R.,
+RA   Andrews R., Harrison E., Kimberley A., Garnett J., Fosker N., Hall R.,
+RA   Garner P., Kelly D., Bird C., Palmer S., Gehring I., Berger A.,
+RA   Dooley C.M., Ersan-Urun Z., Eser C., Geiger H., Geisler M.,
+RA   Karotki L., Kirn A., Konantz J., Konantz M., Oberlander M.,
+RA   Rudolph-Geiger S., Teucke M., Osoegawa K., Zhu B., Rapp A., Widaa S.,
+RA   Langford C., Yang F., Carter N.P., Harrow J., Ning Z., Herrero J.,
+RA   Searle S.M., Enright A., Geisler R., Plasterk R.H., Lee C.,
+RA   Westerfield M., de Jong P.J., Zon L.I., Postlethwait J.H.,
+RA   Nusslein-Volhard C., Hubbard T.J., Roest Crollius H., Rogers J.,
+RA   Stemple D.L.;
+RT   "The zebrafish reference genome sequence and its relationship to the
+RT   human genome.";
+RL   Nature 496:498-503(2013).
+RN   [2] {ECO:0000312|EMBL:AAH91468.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Singapore {ECO:0000312|EMBL:AAH91468.1};
+RC   TISSUE=Embryo {ECO:0000312|EMBL:AAH91468.1};
+RG   NIH - Zebrafish Gene Collection (ZGC) project;
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3] {ECO:0000305}
+RP   FUNCTION, SUBCELLULAR LOCATION, AND DEVELOPMENTAL STAGE.
+RX   PubMed=18068130; DOI=10.1016/j.febslet.2007.11.079;
+RA   Iovine M.K., Gumpert A.M., Falk M.M., Mendelson T.C.;
+RT   "Cx23, a connexin with only four extracellular-loop cysteines, forms
+RT   functional gap junction channels and hemichannels.";
+RL   FEBS Lett. 582:165-170(2008).
+CC   -!- FUNCTION: Has significant hemichannel activity. However, has only
+CC       low-efficiency gap junction activity and probably does not
+CC       function as a gap junction channel in vivo.
+CC       {ECO:0000269|PubMed:18068130}.
+CC   -!- SUBUNIT: A connexon is composed of a hexamer of connexins.
+CC       {ECO:0000250|UniProtKB:P08050}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane
+CC       {ECO:0000255|SAAS:SAAS00674192, ECO:0000269|PubMed:18068130};
+CC       Multi-pass membrane protein {ECO:0000255|SAAS:SAAS00674192}.
+CC   -!- DEVELOPMENTAL STAGE: Expressed in lens at 24 hours post-
+CC       fertilization. {ECO:0000269|PubMed:18068130}.
+CC   -!- SIMILARITY: Belongs to the connexin family.
+CC       {ECO:0000255|SAAS:SAAS00674180}.
+DR   EMBL; BX855623; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC091468; AAH91468.1; -; mRNA.
+DR   RefSeq; NP_001013564.1; NM_001013546.1.
+DR   UniGene; Dr.141011; -.
+DR   STRING; 7955.ENSDARP00000070770; -.
+DR   Ensembl; ENSDART00000153137; ENSDARP00000127140; ENSDARG00000054150.
+DR   GeneID; 541419; -.
+DR   KEGG; dre:541419; -.
+DR   CTD; 541419; -.
+DR   ZFIN; ZDB-GENE-050320-121; cx23.
+DR   eggNOG; ENOG410IEBX; Eukaryota.
+DR   eggNOG; ENOG410Y93T; LUCA.
+DR   GeneTree; ENSGT00390000010547; -.
+DR   HOVERGEN; HBG094838; -.
+DR   KO; K22039; -.
+DR   OMA; YAACKSI; -.
+DR   OrthoDB; EOG091G0JO4; -.
+DR   Proteomes; UP000000437; Chromosome 20.
+DR   Bgee; ENSDARG00000054150; -.
+DR   GO; GO:0005922; C:connexin complex; IEA:InterPro.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005243; F:gap junction channel activity; IDA:ZFIN.
+DR   GO; GO:0007154; P:cell communication; IEA:InterPro.
+DR   InterPro; IPR000500; Connexin.
+DR   InterPro; IPR019570; Connexin_CCC.
+DR   InterPro; IPR013092; Connexin_N.
+DR   PANTHER; PTHR11984; PTHR11984; 1.
+DR   Pfam; PF00029; Connexin; 2.
+DR   PRINTS; PR00206; CONNEXIN.
+DR   SMART; SM01089; Connexin_CCC; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Complete proteome; Disulfide bond; Membrane;
+KW   Reference proteome; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN         1    207       Gap junction epsilon-1 protein.
+FT   TOPO_DOM      1     22       Cytoplasmic.
+FT                                {ECO:0000250|UniProtKB:P08050}.
+FT   TRANSMEM     23     43       Helical. {ECO:0000255}.
+FT   TOPO_DOM     44     74       Extracellular.
+FT                                {ECO:0000250|UniProtKB:P08050}.
+FT   TRANSMEM     75     95       Helical. {ECO:0000255}.
+FT   TOPO_DOM     96    111       Cytoplasmic.
+FT                                {ECO:0000250|UniProtKB:P08050}.
+FT   TRANSMEM    112    132       Helical. {ECO:0000255}.
+FT   TOPO_DOM    133    175       Extracellular.
+FT                                {ECO:0000250|UniProtKB:P08050}.
+FT   TRANSMEM    176    196       Helical. {ECO:0000255}.
+FT   TOPO_DOM    197    207       Cytoplasmic.
+FT                                {ECO:0000250|UniProtKB:P08050}.
+FT   DISULFID     53    161       {ECO:0000250|UniProtKB:P29033}.
+FT   DISULFID     64    147       {ECO:0000250|UniProtKB:P29033}.
+SQ   SEQUENCE   207 AA;  23916 MW;  B6651374C77A0C6A CRC64;
+     MSLNYIKNFY EGCLRPPTVI GQFHTLFFGS VRTFFLGVLG FAVYGNEALH FSCDPDKREL
+     NLYCYNQFRP ITPQVFWALQ LVTVLVPGAV FHLYAACKNI DQEEILHRPM STVFYIISVL
+     LRIILEVLAF WLQSHLFGFL VDPIFMCDVT GLGKILNVSK CMVPEHFEKT IFLSAMYTFT
+     IITILLCIAE IFEILFRRLG YLNQPMT
+//

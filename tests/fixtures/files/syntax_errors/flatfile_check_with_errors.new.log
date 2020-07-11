@@ -1,0 +1,12 @@
+eheAMY_ORYLA AMY_ORYLA        H2N0D4      DE - FATAL ERROR in EC number: 3.2.1
+eheAMY_ORYLA AMY_ORYLA        H2N0D4      CC - FATAL ERROR: comment 'Catalyzes the
+                                          hydrolysis of alpha-1,4 glycosidic linkages in
+                                          starch, glycogen and similar oligosaccharides'
+                                          does not end with a period
+eheAMY_ORYLA AMY_ORYLA        H2N0D4      CC CATALYTIC ACTIVITY/DE -  FATAL ERROR:
+                                          missing 'EC 3.2.1.1' in DE line
+eheAMY_ORYLA AMY_ORYLA        H2N0D4      CCCA/DE -  FATAL ERROR: missing CC CATALYTIC
+                                          ACTIVITY for 'EC 3.2.1'
+eheAMY_ORYLA AMY_ORYLA        H2N0D4      DR/RP - WARNING: 'NUCLEOTIDE SEQUENCE' in RP
+                                          lines, but missing DR EMBL line
+4 errors found.

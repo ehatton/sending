@@ -1,0 +1,156 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.23.0
+    method: GET
+    uri: https://www.uniprot.org/uniprot/?query=id%3AG5EGG8&format=txt
+  response:
+    body:
+      string: ''
+    headers:
+      Access-Control-Allow-Headers:
+      - origin, x-requested-with, content-type, X-Total-Results, X-UniProt-Release
+      Access-Control-Allow-Origin:
+      - '*'
+      Cache-Control:
+      - public
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Date:
+      - Mon, 11 May 2020 11:33:47 GMT
+      Expires:
+      - Mon, 18 May 2020 11:33:47 GMT
+      Last-Modified:
+      - Wed, 22 Apr 2020 00:00:00 GMT
+      Location:
+      - /uniprot/G5EGG8.txt
+      Vary:
+      - User-Agent
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Hosted-By:
+      - European Bioinformatics Institute
+      X-Total-Results:
+      - '1'
+      X-UniProt-Release:
+      - '2020_02'
+    status:
+      code: 302
+      message: ''
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.23.0
+    method: GET
+    uri: https://www.uniprot.org/uniprot/G5EGG8.txt
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      Access-Control-Allow-Headers:
+      - origin, x-requested-with, content-type, X-Total-Results, X-UniProt-Release
+      Access-Control-Allow-Origin:
+      - '*'
+      Cache-Control:
+      - public
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - text/plain;charset=ISO-8859-1
+      Date:
+      - Mon, 11 May 2020 11:33:47 GMT
+      Expires:
+      - Mon, 18 May 2020 11:33:48 GMT
+      Last-Modified:
+      - Wed, 22 Apr 2020 00:00:00 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - User-Agent
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Hosted-By:
+      - European Bioinformatics Institute
+      X-Total-Results:
+      - '1'
+      X-UniProt-Release:
+      - '2020_02'
+    status:
+      code: 200
+      message: ''
+version: 1

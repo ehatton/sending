@@ -1,0 +1,23 @@
+package:
+  name: sending
+  version: 0.0.1
+
+source:
+  git_rev: 
+  git_url: https://github.com/ehatton/sending
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+
+  run:
+    - python
+
+test:
+  imports:
+    - sending
+
+about:
+  home:

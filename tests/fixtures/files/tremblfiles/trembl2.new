@@ -1,0 +1,958 @@
+ID   KLRE1_MOUSE             Unreviewed;       226 AA.
+AC   Q8CJC7; Q80WP0;
+DT   01-MAR-2003, integrated into UniProtKB/TrEMBL.
+DT   01-MAR-2003, sequence version 1.
+DT   07-JUN-2017, entry version 97.
+DE   RecName: Full=Killer cell lectin-like receptor subfamily E member 1 {ECO:0000303|PubMed:12715246};
+GN   Name=Klre1 {ECO:0000303|PubMed:12715246};
+GN   Synonyms=NKG2I {ECO:0000303|PubMed:14707119};
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+OC   Muroidea; Muridae; Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1] {ECO:0000312|EMBL:AAM44080.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=CB-17/SCID {ECO:0000312|EMBL:AAM44080.1};
+RX   PubMed=12782717; DOI=10.1084/jem.20021253;
+RA   Westgaard I.H., Dissen E., Torgersen K.M., Lazetic S., Lanier L.L.,
+RA   Phillips J.H., Fossum S.;
+RT   "The lectin-like receptor KLRE1 inhibits natural killer cell
+RT   cytotoxicity.";
+RL   J. Exp. Med. 197:1551-1561(2003).
+RN   [2] {ECO:0000312|EMBL:AAN31172.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, SUBUNIT, SUBCELLULAR LOCATION,
+RP   AND TISSUE SPECIFICITY.
+RC   STRAIN=C57BL/6J {ECO:0000312|EMBL:AAN31172.1};
+RC   TISSUE=Spleen {ECO:0000312|EMBL:AAN31172.1};
+RX   PubMed=14707119; DOI=10.1084/jem.20030851;
+RA   Koike J., Wakao H., Ishizuka Y., Sato T.A., Hamaoki M., Seino K.,
+RA   Koseki H., Nakayama T., Taniguchi M.;
+RT   "Bone marrow allograft rejection mediated by a novel murine NK
+RT   receptor, NKG2I.";
+RL   J. Exp. Med. 199:137-144(2004).
+RN   [3] {ECO:0000305}
+RP   ERRATUM.
+RX   DOI=10.1084/jem.20040120199137cor;
+RA   Koike J., Wakao H., Ishizuka Y., Sato T.A., Hamaoki M., Seino K.,
+RA   Koseki H., Nakayama T., Taniguchi M.;
+RL   J. Exp. Med. 199:435-435(2004).
+RN   [4] {ECO:0000312|Proteomes:UP000000589}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S.,
+RA   She X., Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W.,
+RA   Kapustin Y., Meric P., Maglott D., Birtle Z., Marques A.C., Graves T.,
+RA   Zhou S., Teague B., Potamousis K., Churas C., Place M., Herschleb J.,
+RA   Runnheim R., Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z.,
+RA   Lindblad-Toh K., Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of
+RT   the mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [5] {ECO:0000305}
+RP   IDENTIFICATION, AND TISSUE SPECIFICITY.
+RX   PubMed=12715246; DOI=10.1007/s00251-003-0540-6;
+RA   Wilhelm B.T., Mager D.L.;
+RT   "Identification of a new murine lectin-like gene in close proximity to
+RT   CD94.";
+RL   Immunogenetics 55:53-56(2003).
+RN   [6] {ECO:0000305}
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=15069013; DOI=10.1182/blood-2003-10-3468;
+RA   Shimizu E., Koike J., Wakao H., Seino K., Koseki H., Kakiuchi T.,
+RA   Nakayama T., Taniguchi M.;
+RT   "Role of a NK receptor, KLRE-1, in bone marrow allograft rejection:
+RT   analysis with KLRE-1-deficient mice.";
+RL   Blood 104:781-783(2004).
+RN   [7] {ECO:0000305}
+RP   FUNCTION, SUBUNIT, AND SUBCELLULAR LOCATION.
+RX   PubMed=18713988; DOI=10.4049/jimmunol.181.5.3177;
+RA   Saether P.C., Westgaard I.H., Hoelsbrekken S.E., Benjamin J.,
+RA   Lanier L.L., Fossum S., Dissen E.;
+RT   "KLRE/I1 and KLRE/I2: a novel pair of heterodimeric receptors that
+RT   inversely regulate NK cell cytotoxicity.";
+RL   J. Immunol. 181:3177-3182(2008).
+CC   -!- FUNCTION: Lectin-like receptor for NK (natural killer) cells
+CC       (PubMed:14707119, PubMed:15069013, PubMed:18713988). Can either
+CC       inhibit or activate NK cell cytotoxic activity, depending on its
+CC       binding partner (PubMed:14707119, PubMed:15069013,
+CC       PubMed:18713988). Heterodimer formation with KLRI1 mediates NK
+CC       cell inhibition whereas heterodimer formation with KLRI2 mediates
+CC       NK cell activation (PubMed:18713988). Plays a role in allogeneic
+CC       recognition by the immune system (PubMed:14707119,
+CC       PubMed:15069013). {ECO:0000269|PubMed:14707119,
+CC       ECO:0000269|PubMed:15069013, ECO:0000269|PubMed:18713988}.
+CC   -!- SUBUNIT: Heterodimer; with KLRI1 or KLRI2.
+CC       {ECO:0000269|PubMed:14707119, ECO:0000269|PubMed:18713988}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:12782717,
+CC       ECO:0000269|PubMed:14707119, ECO:0000269|PubMed:15069013,
+CC       ECO:0000269|PubMed:18713988}; Single-pass type II membrane protein
+CC       {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in natural killer (NK) cells (at
+CC       protein level) (PubMed:12782717, PubMed:14707119,
+CC       PubMed:12715246). Also detected in natural killer T (NKT) cells
+CC       (at protein level) (PubMed:14707119, PubMed:12715246). Has little
+CC       or no expression in T cells (at protein level) (PubMed:14707119,
+CC       PubMed:12715246). {ECO:0000269|PubMed:12715246,
+CC       ECO:0000269|PubMed:12782717, ECO:0000269|PubMed:14707119}.
+CC   -!- DISRUPTION PHENOTYPE: Viable and fertile, with no gross
+CC       abnormalities. Development of natural killer (NK) cells appears to
+CC       be normal. Cytolytic activity of activated NK cells against
+CC       allogeneic target cells is significantly reduced.
+CC       {ECO:0000269|PubMed:15069013}.
+DR   EMBL; AY100458; AAM44080.1; -; mRNA.
+DR   EMBL; AF306663; AAN31172.1; -; mRNA.
+DR   EMBL; AC161602; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   RefSeq; NP_705818.3; NM_153590.3.
+DR   RefSeq; XP_006506186.1; XM_006506123.3.
+DR   RefSeq; XP_006506189.1; XM_006506126.1.
+DR   RefSeq; XP_017177078.1; XM_017321589.1.
+DR   UniGene; Mm.30968; -.
+DR   STRING; 10090.ENSMUSP00000055779; -.
+DR   PaxDb; Q80WP0; -.
+DR   DNASU; 243655; -.
+DR   Ensembl; ENSMUST00000053708; ENSMUSP00000055779; ENSMUSG00000050241.
+DR   GeneID; 243655; -.
+DR   KEGG; mmu:243655; -.
+DR   UCSC; uc009egb.1; mouse.
+DR   CTD; 243655; -.
+DR   MGI; MGI:2662547; Klre1.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   eggNOG; ENOG410XPJ1; LUCA.
+DR   GeneTree; ENSGT00730000110282; -.
+DR   HOGENOM; HOG000146450; -.
+DR   HOVERGEN; HBG098032; -.
+DR   OMA; WLWENDS; -.
+DR   OrthoDB; EOG091G0M9P; -.
+DR   TreeFam; TF336674; -.
+DR   Proteomes; UP000000589; Chromosome 6.
+DR   Bgee; ENSMUSG00000050241; -.
+DR   GO; GO:0009897; C:external side of plasma membrane; IDA:MGI.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IDA:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046983; F:protein dimerization activity; IDA:MGI.
+DR   GO; GO:0042803; F:protein homodimerization activity; IEA:Ensembl.
+DR   GO; GO:0019903; F:protein phosphatase binding; IEA:Ensembl.
+DR   GO; GO:0004888; F:transmembrane signaling receptor activity; IDA:MGI.
+DR   GO; GO:0030101; P:natural killer cell activation; IDA:MGI.
+DR   GO; GO:0002859; P:negative regulation of natural killer cell mediated cytotoxicity directed against tumor cell target; IEA:Ensembl.
+DR   GO; GO:0032729; P:positive regulation of interferon-gamma production; IDA:MGI.
+DR   GO; GO:0045954; P:positive regulation of natural killer cell mediated cytotoxicity; IMP:MGI.
+DR   GO; GO:0002223; P:stimulatory C-type lectin receptor signaling pathway; IDA:MGI.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Complete proteome; Disulfide bond; Glycoprotein;
+KW   Lectin; Membrane; Receptor; Reference proteome; Signal-anchor;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN         1    226       Killer cell lectin-like receptor
+FT                                subfamily E member 1.
+FT   TOPO_DOM      1     68       Cytoplasmic. {ECO:0000305}.
+FT   TRANSMEM     69     89       Helical; Signal-anchor for type II
+FT                                membrane protein. {ECO:0000255}.
+FT   TOPO_DOM     90    226       Extracellular. {ECO:0000305}.
+FT   DOMAIN      120    225       C-type lectin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00040}.
+FT   CARBOHYD    145    145       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255}.
+FT   DISULFID    113    124       {ECO:0000250|UniProtKB:Q13241}.
+FT   DISULFID    141    224       {ECO:0000250|UniProtKB:Q13241}.
+FT   DISULFID    202    216       {ECO:0000250|UniProtKB:Q13241}.
+FT   CONFLICT    136    136       D -> E (in Ref. 1; AAM44080).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   226 AA;  26265 MW;  FE1E25C0A80B2DFD CRC64;
+     MDEAPVTRST LNVNSQQKSK AKNKIKNTLN SNELSSIEQR KKYQKHLKKH KNTAEDISGK
+     GNCSPPWRLL SSVLGAMCLL LMAVAMVMTT FTTKSSSERS SSTIQQEGLH HPCPENWVWF
+     RCSCYFFSKE ELIWRDSQRA CLSLNSSLIR MNKEEMNFFS LKSFFWVGVY YNETRRQWLW
+     EDHSVLPSGL FSKLEANMKN FCASYKSKEA YMEENCANKL TYICKK
+//
+ID   KLRE1_RAT               Unreviewed;       226 AA.
+AC   Q80ZC8; Q80ST4;
+DT   01-JUN-2003, integrated into UniProtKB/TrEMBL.
+DT   01-JUN-2003, sequence version 1.
+DT   30-AUG-2017, entry version 98.
+DE   RecName: Full=Killer cell lectin-like receptor subfamily E member 1 {ECO:0000303|PubMed:12782717};
+GN   Name=Klre1 {ECO:0000303|PubMed:12782717};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+OC   Muroidea; Muridae; Murinae; Rattus.
+OX   NCBI_TaxID=10116;
+RN   [1] {ECO:0000312|EMBL:AAO49445.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), SUBCELLULAR LOCATION,
+RP   AND TISSUE SPECIFICITY.
+RC   STRAIN=DA {ECO:0000312|EMBL:AAO49445.1}, and
+RC   Fischer 344 {ECO:0000312|EMBL:AAO49446.1};
+RX   PubMed=12782717; DOI=10.1084/jem.20021253;
+RA   Westgaard I.H., Dissen E., Torgersen K.M., Lazetic S., Lanier L.L.,
+RA   Phillips J.H., Fossum S.;
+RT   "The lectin-like receptor KLRE1 inhibits natural killer cell
+RT   cytotoxicity.";
+RL   J. Exp. Med. 197:1551-1561(2003).
+RN   [2] {ECO:0000312|EMBL:AC115156}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RX   PubMed=15057822; DOI=10.1038/nature02426;
+RA   Gibbs R.A., Weinstock G.M., Metzker M.L., Muzny D.M., Sodergren E.J.,
+RA   Scherer S., Scott G., Steffen D., Worley K.C., Burch P.E., Okwuonu G.,
+RA   Hines S., Lewis L., Deramo C., Delgado O., Dugan-Rocha S., Miner G.,
+RA   Morgan M., Hawes A., Gill R., Holt R.A., Adams M.D., Amanatides P.G.,
+RA   Baden-Tillson H., Barnstead M., Chin S., Evans C.A., Ferriera S.,
+RA   Fosler C., Glodek A., Gu Z., Jennings D., Kraft C.L., Nguyen T.,
+RA   Pfannkoch C.M., Sitter C., Sutton G.G., Venter J.C., Woodage T.,
+RA   Smith D., Lee H.-M., Gustafson E., Cahill P., Kana A.,
+RA   Doucette-Stamm L., Weinstock K., Fechtel K., Weiss R.B., Dunn D.M.,
+RA   Green E.D., Blakesley R.W., Bouffard G.G., De Jong P.J., Osoegawa K.,
+RA   Zhu B., Marra M., Schein J., Bosdet I., Fjell C., Jones S.,
+RA   Krzywinski M., Mathewson C., Siddiqui A., Wye N., McPherson J.,
+RA   Zhao S., Fraser C.M., Shetty J., Shatsman S., Geer K., Chen Y.,
+RA   Abramzon S., Nierman W.C., Havlak P.H., Chen R., Durbin K.J., Egan A.,
+RA   Ren Y., Song X.-Z., Li B., Liu Y., Qin X., Cawley S., Cooney A.J.,
+RA   D'Souza L.M., Martin K., Wu J.Q., Gonzalez-Garay M.L., Jackson A.R.,
+RA   Kalafus K.J., McLeod M.P., Milosavljevic A., Virk D., Volkov A.,
+RA   Wheeler D.A., Zhang Z., Bailey J.A., Eichler E.E., Tuzun E.,
+RA   Birney E., Mongin E., Ureta-Vidal A., Woodwark C., Zdobnov E.,
+RA   Bork P., Suyama M., Torrents D., Alexandersson M., Trask B.J.,
+RA   Young J.M., Huang H., Wang H., Xing H., Daniels S., Gietzen D.,
+RA   Schmidt J., Stevens K., Vitt U., Wingrove J., Camara F., Mar Alba M.,
+RA   Abril J.F., Guigo R., Smit A., Dubchak I., Rubin E.M., Couronne O.,
+RA   Poliakov A., Huebner N., Ganten D., Goesele C., Hummel O.,
+RA   Kreitler T., Lee Y.-A., Monti J., Schulz H., Zimdahl H.,
+RA   Himmelbauer H., Lehrach H., Jacob H.J., Bromberg S.,
+RA   Gullings-Handley J., Jensen-Seaman M.I., Kwitek A.E., Lazar J.,
+RA   Pasko D., Tonellato P.J., Twigger S., Ponting C.P., Duarte J.M.,
+RA   Rice S., Goodstadt L., Beatson S.A., Emes R.D., Winter E.E.,
+RA   Webber C., Brandt P., Nyakatura G., Adetobi M., Chiaromonte F.,
+RA   Elnitski L., Eswara P., Hardison R.C., Hou M., Kolbe D., Makova K.,
+RA   Miller W., Nekrutenko A., Riemer C., Schwartz S., Taylor J., Yang S.,
+RA   Zhang Y., Lindpaintner K., Andrews T.D., Caccamo M., Clamp M.,
+RA   Clarke L., Curwen V., Durbin R.M., Eyras E., Searle S.M., Cooper G.M.,
+RA   Batzoglou S., Brudno M., Sidow A., Stone E.A., Payseur B.A.,
+RA   Bourque G., Lopez-Otin C., Puente X.S., Chakrabarti K., Chatterji S.,
+RA   Dewey C., Pachter L., Bray N., Yap V.B., Caspi A., Tesler G.,
+RA   Pevzner P.A., Haussler D., Roskin K.M., Baertsch R., Clawson H.,
+RA   Furey T.S., Hinrichs A.S., Karolchik D., Kent W.J., Rosenbloom K.R.,
+RA   Trumbower H., Weirauch M., Cooper D.N., Stenson P.D., Ma B., Brent M.,
+RA   Arumugam M., Shteynberg D., Copley R.R., Taylor M.S., Riethman H.,
+RA   Mudunuri U., Peterson J., Guyer M., Felsenfeld A., Old S., Mockrin S.,
+RA   Collins F.S.;
+RT   "Genome sequence of the Brown Norway rat yields insights into
+RT   mammalian evolution.";
+RL   Nature 428:493-521(2004).
+RN   [3] {ECO:0000312|EMBL:EDM01724.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [4] {ECO:0000305}
+RP   FUNCTION, SUBUNIT, AND SUBCELLULAR LOCATION.
+RX   PubMed=18713988; DOI=10.4049/jimmunol.181.5.3177;
+RA   Saether P.C., Westgaard I.H., Hoelsbrekken S.E., Benjamin J.,
+RA   Lanier L.L., Fossum S., Dissen E.;
+RT   "KLRE/I1 and KLRE/I2: a novel pair of heterodimeric receptors that
+RT   inversely regulate NK cell cytotoxicity.";
+RL   J. Immunol. 181:3177-3182(2008).
+CC   -!- FUNCTION: Lectin-like receptor for NK (natural killer) cells
+CC       (PubMed:12782717, PubMed:18713988). Can either inhibit or activate
+CC       NK cell cytotoxic activity, depending on its binding partner
+CC       (PubMed:18713988). Heterodimer formation with KLRI1 mediates NK
+CC       cell inhibition whereas heterodimer formation with KLRI2 mediates
+CC       NK cell activation (PubMed:18713988). Plays a role in allogeneic
+CC       recognition by the immune system (By similarity).
+CC       {ECO:0000250|UniProtKB:Q8CJC7, ECO:0000269|PubMed:18713988}.
+CC   -!- SUBUNIT: Heterodimer; with KLRI1 or KLRI2.
+CC       {ECO:0000269|PubMed:18713988}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:12782717,
+CC       ECO:0000269|PubMed:18713988}; Single-pass type II membrane protein
+CC       {ECO:0000255}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1; Synonyms=Long {ECO:0000303|PubMed:12782717};
+CC         IsoId=Q80ZC8-1; Sequence=Displayed;
+CC       Name=2; Synonyms=Short {ECO:0000303|PubMed:12782717};
+CC         IsoId=Q80ZC8-2; Sequence=?;
+CC   -!- TISSUE SPECIFICITY: Expressed in natural killer (NK) cells.
+CC       {ECO:0000269|PubMed:12782717}.
+DR   EMBL; AF486185; AAO49444.1; -; mRNA.
+DR   EMBL; AF486186; AAO49445.1; -; mRNA.
+DR   EMBL; AF486187; AAO49446.1; -; mRNA.
+DR   EMBL; AC115156; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH473964; EDM01724.1; -; Genomic_DNA.
+DR   EMBL; CH473964; EDM01725.1; -; Genomic_DNA.
+DR   RefSeq; NP_852037.1; NM_181372.2.
+DR   RefSeq; XP_006237144.1; XM_006237082.3.
+DR   RefSeq; XP_008761533.1; XM_008763311.2.
+DR   RefSeq; XP_017448082.1; XM_017592593.1.
+DR   RefSeq; XP_017448083.1; XM_017592594.1.
+DR   UniGene; Rn.16199; -.
+DR   STRING; 10116.ENSRNOP00000010669; -.
+DR   Ensembl; ENSRNOT00000084823; ENSRNOP00000074069; ENSRNOG00000058714.
+DR   GeneID; 297645; -.
+DR   KEGG; rno:297645; -.
+DR   UCSC; RGD:727903; rat.
+DR   CTD; 243655; -.
+DR   RGD; 727903; Klre1.
+DR   eggNOG; KOG4297; Eukaryota.
+DR   eggNOG; ENOG410XPJ1; LUCA.
+DR   GeneTree; ENSGT00730000110282; -.
+DR   HOGENOM; HOG000146450; -.
+DR   HOVERGEN; HBG098032; -.
+DR   OMA; WLWENDS; -.
+DR   OrthoDB; EOG091G0M9P; -.
+DR   TreeFam; TF336674; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000058714; -.
+DR   GO; GO:0009986; C:cell surface; IDA:RGD.
+DR   GO; GO:0009897; C:external side of plasma membrane; IEA:Ensembl.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IEA:Ensembl.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042803; F:protein homodimerization activity; IDA:RGD.
+DR   GO; GO:0019903; F:protein phosphatase binding; IPI:RGD.
+DR   GO; GO:0004888; F:transmembrane signaling receptor activity; IEA:Ensembl.
+DR   GO; GO:0030101; P:natural killer cell activation; IEA:Ensembl.
+DR   GO; GO:0002859; P:negative regulation of natural killer cell mediated cytotoxicity directed against tumor cell target; IDA:RGD.
+DR   GO; GO:0032729; P:positive regulation of interferon-gamma production; IEA:Ensembl.
+DR   GO; GO:0045954; P:positive regulation of natural killer cell mediated cytotoxicity; IEA:Ensembl.
+DR   GO; GO:0002223; P:stimulatory C-type lectin receptor signaling pathway; IEA:Ensembl.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Cell membrane; Complete proteome;
+KW   Disulfide bond; Glycoprotein; Lectin; Membrane; Receptor;
+KW   Reference proteome; Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN         1    226       Killer cell lectin-like receptor
+FT                                subfamily E member 1.
+FT   TOPO_DOM      1     72       Cytoplasmic. {ECO:0000305}.
+FT   TRANSMEM     73     93       Helical; Signal-anchor for type II
+FT                                membrane protein. {ECO:0000255}.
+FT   TOPO_DOM     94    226       Extracellular. {ECO:0000305}.
+FT   DOMAIN      120    225       C-type lectin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00040}.
+FT   CARBOHYD    145    145       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255}.
+FT   DISULFID    113    124       {ECO:0000250|UniProtKB:Q13241}.
+FT   DISULFID    141    224       {ECO:0000250|UniProtKB:Q13241}.
+FT   DISULFID    202    216       {ECO:0000250|UniProtKB:Q13241}.
+FT   VAR_SEQ       1     24       Missing (in isoform 2).
+SQ   SEQUENCE   226 AA;  26266 MW;  64334D81C03D758B CRC64;
+     MNQTLIICST LNVNSQQKSK AKNSMKNTFH SNELSSIEQR QKYQKHLKKD KKTAEDITGV
+     GNCSPPWRLI SSVLFVVCLL LMAVAMVMTI FTTRLSSERS SSNIHQEGLH HPCPENWVWF
+     RCSCYYFSKE KLVWRESQRA CLSFNSSLIR MNKEEMDFFS LKSFFWVGVY YDETSKQWLW
+     DDHSVLPSGM FSGLESSPKN FCASYKSKEA YLAENCSTKL MYICKK
+//
+ID   KLRI1_MOUSE             Unreviewed;       248 AA.
+AC   B2KG20; Q5DT35;
+DT   10-JUN-2008, integrated into UniProtKB/TrEMBL.
+DT   10-JUN-2008, sequence version 1.
+DT   07-JUN-2017, entry version 66.
+DE   RecName: Full=Killer cell lectin-like receptor subfamily I member 1 {ECO:0000303|PubMed:15650876};
+GN   Name=Klri1 {ECO:0000303|PubMed:15650876};
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+OC   Muroidea; Muridae; Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090 {ECO:0000312|Proteomes:UP000000589};
+RN   [1] {ECO:0000312|EMBL:AAR00559.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND TISSUE SPECIFICITY.
+RC   STRAIN=C57BL/6J {ECO:0000312|EMBL:AAR00559.1};
+RX   PubMed=15650876; DOI=10.1007/s00251-004-0759-x;
+RA   Saether P.C., Westgaard I.H., Flornes L.M., Hoelsbrekken S.E.,
+RA   Ryan J.C., Fossum S., Dissen E.;
+RT   "Molecular cloning of KLRI1 and KLRI2, a novel pair of lectin-like
+RT   natural killer-cell receptors with opposing signalling motifs.";
+RL   Immunogenetics 56:833-839(2005).
+RN   [2] {ECO:0000312|Proteomes:UP000000589}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S.,
+RA   She X., Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W.,
+RA   Kapustin Y., Meric P., Maglott D., Birtle Z., Marques A.C., Graves T.,
+RA   Zhou S., Teague B., Potamousis K., Churas C., Place M., Herschleb J.,
+RA   Runnheim R., Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z.,
+RA   Lindblad-Toh K., Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of
+RT   the mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [3] {ECO:0000305}
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=18713988; DOI=10.4049/jimmunol.181.5.3177;
+RA   Saether P.C., Westgaard I.H., Hoelsbrekken S.E., Benjamin J.,
+RA   Lanier L.L., Fossum S., Dissen E.;
+RT   "KLRE/I1 and KLRE/I2: a novel pair of heterodimeric receptors that
+RT   inversely regulate NK cell cytotoxicity.";
+RL   J. Immunol. 181:3177-3182(2008).
+CC   -!- FUNCTION: Lectin-like receptor for NK (natural killer) cells.
+CC       Heterodimer formation with KLRE1 mediates inhibition of NK cell
+CC       cytolytic activity. {ECO:0000269|PubMed:18713988}.
+CC   -!- SUBUNIT: Heterodimer with KLRE1. Interacts with PTPN6.
+CC       {ECO:0000250|UniProtKB:Q5DT39}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:18713988};
+CC       Single-pass type II membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in natural killer (NK) cells.
+CC       {ECO:0000269|PubMed:15650876}.
+CC   -!- DOMAIN: Contains 2 copies of a cytoplasmic motif that is referred
+CC       to as the immunoreceptor tyrosine-based inhibitor motif (ITIM).
+CC       The phosphorylated ITIM motif can bind the SH2 domain of several
+CC       SH2-containing phosphatases leading to down-regulation of cell
+CC       activation. {ECO:0000250|UniProtKB:P27812}.
+DR   EMBL; AY324874; AAR00559.1; -; mRNA.
+DR   EMBL; AC171002; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   RefSeq; NP_001012538.2; NM_001012520.2.
+DR   UniGene; Mm.376476; -.
+DR   ProteinModelPortal; B2KG20; -.
+DR   PaxDb; B2KG20; -.
+DR   Ensembl; ENSMUST00000088046; ENSMUSP00000085362; ENSMUSG00000067610.
+DR   GeneID; 503550; -.
+DR   KEGG; mmu:503550; -.
+DR   UCSC; uc009egq.1; mouse.
+DR   CTD; 503550; -.
+DR   MGI; MGI:3530275; Klri1.
+DR   eggNOG; ENOG410JC0N; Eukaryota.
+DR   eggNOG; ENOG4111506; LUCA.
+DR   GeneTree; ENSGT00730000110282; -.
+DR   HOGENOM; HOG000059259; -.
+DR   HOVERGEN; HBG055205; -.
+DR   InParanoid; B2KG20; -.
+DR   OMA; CKSPWKH; -.
+DR   OrthoDB; EOG091G0NQ3; -.
+DR   PhylomeDB; B2KG20; -.
+DR   TreeFam; TF336674; -.
+DR   Proteomes; UP000000589; Chromosome 6.
+DR   Bgee; ENSMUSG00000067610; -.
+DR   GO; GO:0005887; C:integral component of plasma membrane; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   4: Predicted;
+KW   Cell membrane; Complete proteome; Disulfide bond; Glycoprotein;
+KW   Lectin; Membrane; Reference proteome; Signal-anchor; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN         1    248       Killer cell lectin-like receptor
+FT                                subfamily I member 1.
+FT   TOPO_DOM      1     80       Cytoplasmic. {ECO:0000305}.
+FT   TRANSMEM     81    101       Helical; Signal-anchor for type II
+FT                                membrane protein. {ECO:0000255}.
+FT   TOPO_DOM    102    248       Extracellular. {ECO:0000305}.
+FT   DOMAIN      139    245       C-type lectin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00040}.
+FT   MOTIF        16     21       ITIM motif 1.
+FT                                {ECO:0000250|UniProtKB:P27812}.
+FT   MOTIF        47     52       ITIM motif 2.
+FT                                {ECO:0000250|UniProtKB:P27812}.
+FT   CARBOHYD    197    197       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    214    214       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    220    220       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   DISULFID    132    145       {ECO:0000250|UniProtKB:Q13241}.
+FT   DISULFID    161    244       {ECO:0000250|UniProtKB:Q13241}.
+FT   DISULFID    223    236       {ECO:0000250|UniProtKB:Q13241}.
+FT   CONFLICT     72     72       Q -> H (in Ref. 1; AAR00559).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   248 AA;  28642 MW;  6A82D2A10CACE120 CRC64;
+     MLHSKRREYT ANNQDVTYTE LKTCKSPWKH RIPTVKQSPV VLCEEQLKYG ELTFHRTPQP
+     QPRKQAMGRK RQGPKSTVWR VVTGMLGALC VVLMTTTGIL LPKLFSSQEE QCRKTSLHPL
+     RCPKDDASCD LCSSDWIAFG NNFYCVFKEN TKTWAESQSA CEELNSHLVI IDSKAEVENL
+     LLFEMDGWIL HKMDGTNSSW LWRNDIKIQN TLTNDSEKKN HSCHYLRGNL FMPDECSAKK
+     SYICEFNI
+//
+ID   KLRI1_RAT               Unreviewed;       243 AA.
+AC   Q5DT39; E9PTP0;
+DT   29-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   29-MAR-2005, sequence version 1.
+DT   30-AUG-2017, entry version 83.
+DE   RecName: Full=Killer cell lectin-like receptor subfamily I member 1 {ECO:0000303|PubMed:15650876};
+GN   Name=Klri1 {ECO:0000303|PubMed:15650876};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+OC   Muroidea; Muridae; Murinae; Rattus.
+OX   NCBI_TaxID=10116 {ECO:0000312|EMBL:AAQ20111.1};
+RN   [1] {ECO:0000312|EMBL:AAQ20111.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Fischer 344 {ECO:0000312|EMBL:AAQ20111.1};
+RX   PubMed=15650876; DOI=10.1007/s00251-004-0759-x;
+RA   Saether P.C., Westgaard I.H., Flornes L.M., Hoelsbrekken S.E.,
+RA   Ryan J.C., Fossum S., Dissen E.;
+RT   "Molecular cloning of KLRI1 and KLRI2, a novel pair of lectin-like
+RT   natural killer-cell receptors with opposing signalling motifs.";
+RL   Immunogenetics 56:833-839(2005).
+RN   [2] {ECO:0000312|Proteomes:UP000002494}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RX   PubMed=15057822; DOI=10.1038/nature02426;
+RA   Gibbs R.A., Weinstock G.M., Metzker M.L., Muzny D.M., Sodergren E.J.,
+RA   Scherer S., Scott G., Steffen D., Worley K.C., Burch P.E., Okwuonu G.,
+RA   Hines S., Lewis L., Deramo C., Delgado O., Dugan-Rocha S., Miner G.,
+RA   Morgan M., Hawes A., Gill R., Holt R.A., Adams M.D., Amanatides P.G.,
+RA   Baden-Tillson H., Barnstead M., Chin S., Evans C.A., Ferriera S.,
+RA   Fosler C., Glodek A., Gu Z., Jennings D., Kraft C.L., Nguyen T.,
+RA   Pfannkoch C.M., Sitter C., Sutton G.G., Venter J.C., Woodage T.,
+RA   Smith D., Lee H.-M., Gustafson E., Cahill P., Kana A.,
+RA   Doucette-Stamm L., Weinstock K., Fechtel K., Weiss R.B., Dunn D.M.,
+RA   Green E.D., Blakesley R.W., Bouffard G.G., De Jong P.J., Osoegawa K.,
+RA   Zhu B., Marra M., Schein J., Bosdet I., Fjell C., Jones S.,
+RA   Krzywinski M., Mathewson C., Siddiqui A., Wye N., McPherson J.,
+RA   Zhao S., Fraser C.M., Shetty J., Shatsman S., Geer K., Chen Y.,
+RA   Abramzon S., Nierman W.C., Havlak P.H., Chen R., Durbin K.J., Egan A.,
+RA   Ren Y., Song X.-Z., Li B., Liu Y., Qin X., Cawley S., Cooney A.J.,
+RA   D'Souza L.M., Martin K., Wu J.Q., Gonzalez-Garay M.L., Jackson A.R.,
+RA   Kalafus K.J., McLeod M.P., Milosavljevic A., Virk D., Volkov A.,
+RA   Wheeler D.A., Zhang Z., Bailey J.A., Eichler E.E., Tuzun E.,
+RA   Birney E., Mongin E., Ureta-Vidal A., Woodwark C., Zdobnov E.,
+RA   Bork P., Suyama M., Torrents D., Alexandersson M., Trask B.J.,
+RA   Young J.M., Huang H., Wang H., Xing H., Daniels S., Gietzen D.,
+RA   Schmidt J., Stevens K., Vitt U., Wingrove J., Camara F., Mar Alba M.,
+RA   Abril J.F., Guigo R., Smit A., Dubchak I., Rubin E.M., Couronne O.,
+RA   Poliakov A., Huebner N., Ganten D., Goesele C., Hummel O.,
+RA   Kreitler T., Lee Y.-A., Monti J., Schulz H., Zimdahl H.,
+RA   Himmelbauer H., Lehrach H., Jacob H.J., Bromberg S.,
+RA   Gullings-Handley J., Jensen-Seaman M.I., Kwitek A.E., Lazar J.,
+RA   Pasko D., Tonellato P.J., Twigger S., Ponting C.P., Duarte J.M.,
+RA   Rice S., Goodstadt L., Beatson S.A., Emes R.D., Winter E.E.,
+RA   Webber C., Brandt P., Nyakatura G., Adetobi M., Chiaromonte F.,
+RA   Elnitski L., Eswara P., Hardison R.C., Hou M., Kolbe D., Makova K.,
+RA   Miller W., Nekrutenko A., Riemer C., Schwartz S., Taylor J., Yang S.,
+RA   Zhang Y., Lindpaintner K., Andrews T.D., Caccamo M., Clamp M.,
+RA   Clarke L., Curwen V., Durbin R.M., Eyras E., Searle S.M., Cooper G.M.,
+RA   Batzoglou S., Brudno M., Sidow A., Stone E.A., Payseur B.A.,
+RA   Bourque G., Lopez-Otin C., Puente X.S., Chakrabarti K., Chatterji S.,
+RA   Dewey C., Pachter L., Bray N., Yap V.B., Caspi A., Tesler G.,
+RA   Pevzner P.A., Haussler D., Roskin K.M., Baertsch R., Clawson H.,
+RA   Furey T.S., Hinrichs A.S., Karolchik D., Kent W.J., Rosenbloom K.R.,
+RA   Trumbower H., Weirauch M., Cooper D.N., Stenson P.D., Ma B., Brent M.,
+RA   Arumugam M., Shteynberg D., Copley R.R., Taylor M.S., Riethman H.,
+RA   Mudunuri U., Peterson J., Guyer M., Felsenfeld A., Old S., Mockrin S.,
+RA   Collins F.S.;
+RT   "Genome sequence of the Brown Norway rat yields insights into
+RT   mammalian evolution.";
+RL   Nature 428:493-521(2004).
+RN   [3] {ECO:0000305}
+RP   FUNCTION, SUBUNIT, INTERACTION WITH PTPN6, AND SUBCELLULAR LOCATION.
+RX   PubMed=18713988; DOI=10.4049/jimmunol.181.5.3177;
+RA   Saether P.C., Westgaard I.H., Hoelsbrekken S.E., Benjamin J.,
+RA   Lanier L.L., Fossum S., Dissen E.;
+RT   "KLRE/I1 and KLRE/I2: a novel pair of heterodimeric receptors that
+RT   inversely regulate NK cell cytotoxicity.";
+RL   J. Immunol. 181:3177-3182(2008).
+CC   -!- FUNCTION: Lectin-like receptor for NK (natural killer) cells.
+CC       Heterodimer formation with KLRE1 mediates inhibition of NK cell
+CC       cytolytic activity. {ECO:0000269|PubMed:18713988}.
+CC   -!- SUBUNIT: Heterodimer with KLRE1. Interacts with PTPN6.
+CC       {ECO:0000269|PubMed:18713988}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:15650876};
+CC       Single-pass type II membrane protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in natural killer (NK) cells.
+CC       {ECO:0000269|PubMed:15650876}.
+CC   -!- DOMAIN: Contains 2 copies of a cytoplasmic motif that is referred
+CC       to as the immunoreceptor tyrosine-based inhibitor motif (ITIM).
+CC       The phosphorylated ITIM motif can bind the SH2 domain of several
+CC       SH2-containing phosphatases leading to down-regulation of cell
+CC       activation. {ECO:0000250|UniProtKB:P27812}.
+DR   EMBL; AY286494; AAQ20111.1; -; mRNA.
+DR   EMBL; AC108288; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   RefSeq; NP_001012667.1; NM_001012649.1.
+DR   UniGene; Rn.134172; -.
+DR   STRING; 10116.ENSRNOP00000062814; -.
+DR   Ensembl; ENSRNOT00000090813; ENSRNOP00000069881; ENSRNOG00000052803.
+DR   GeneID; 503651; -.
+DR   KEGG; rno:503651; -.
+DR   UCSC; RGD:1359344; rat.
+DR   CTD; 503550; -.
+DR   RGD; 1359344; Klri1.
+DR   eggNOG; ENOG410JC0N; Eukaryota.
+DR   eggNOG; ENOG4111506; LUCA.
+DR   GeneTree; ENSGT00730000110282; -.
+DR   HOGENOM; HOG000059259; -.
+DR   HOVERGEN; HBG055205; -.
+DR   OMA; CKSPWKH; -.
+DR   OrthoDB; EOG091G0NQ3; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000052803; -.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IDA:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Complete proteome; Disulfide bond; Glycoprotein;
+KW   Lectin; Membrane; Receptor; Reference proteome; Signal-anchor;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN         1    243       Killer cell lectin-like receptor
+FT                                subfamily I member 1.
+FT   TOPO_DOM      1     80       Cytoplasmic. {ECO:0000305}.
+FT   TRANSMEM     81    101       Helical; Signal-anchor for type II
+FT                                membrane protein. {ECO:0000255}.
+FT   TOPO_DOM    102    243       Extracellular. {ECO:0000305}.
+FT   DOMAIN      137    239       C-type lectin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00040}.
+FT   MOTIF        16     21       ITIM motif 1.
+FT                                {ECO:0000250|UniProtKB:P27812}.
+FT   MOTIF        47     52       ITIM motif 2.
+FT                                {ECO:0000250|UniProtKB:P27812}.
+FT   CARBOHYD    123    123       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    191    191       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    194    194       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    200    200       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    214    214       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   DISULFID    158    238       {ECO:0000250|UniProtKB:Q13241}.
+FT   DISULFID    217    230       {ECO:0000250|UniProtKB:Q13241}.
+SQ   SEQUENCE   243 AA;  28175 MW;  62BDC48BD0475F94 CRC64;
+     MPHSKHRDYT ADKQDIPYTE LKACKSPWKH RTPAVKQSPV VLSEEQLKYA ELTFHRTPQL
+     QPRKQTVRRK RQGPKSAVWR VVTCVLGVLC VVLMITMGIL VPKLFSGQEE QYRETSLHHL
+     LKNDSSCDPC SHDWIAFGNN FYLFFRGTKS WAESKSACEE LNSHLLDIDS KAELENLLLF
+     EINGWILVKK NQTNWSSSEN ETKLQHTLID EKKNHSCRYL RGSQFIADDC SSKKPYACEF
+     NKM
+//
+ID   KLRI2_MOUSE             Unreviewed;       248 AA.
+AC   Q5DT36; Q8BS07;
+DT   29-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   29-MAR-2005, sequence version 1.
+DT   07-JUN-2017, entry version 80.
+DE   RecName: Full=Killer cell lectin-like receptor subfamily I member 2 {ECO:0000303|PubMed:15650876};
+GN   Name=Klri2 {ECO:0000303|PubMed:15650876};
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+OC   Muroidea; Muridae; Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1] {ECO:0000312|EMBL:AAR00558.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY.
+RC   STRAIN=C57BL/6J {ECO:0000312|EMBL:AAR00558.1};
+RX   PubMed=15650876; DOI=10.1007/s00251-004-0759-x;
+RA   Saether P.C., Westgaard I.H., Flornes L.M., Hoelsbrekken S.E.,
+RA   Ryan J.C., Fossum S., Dissen E.;
+RT   "Molecular cloning of KLRI1 and KLRI2, a novel pair of lectin-like
+RT   natural killer-cell receptors with opposing signalling motifs.";
+RL   Immunogenetics 56:833-839(2005).
+RN   [2] {ECO:0000312|EMBL:BAC30742.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J {ECO:0000312|EMBL:BAC30742.1};
+RC   TISSUE=Aorta {ECO:0000312|EMBL:BAC30742.1}, and
+RC   Vein {ECO:0000312|EMBL:BAC30742.1};
+RX   PubMed=16141072; DOI=10.1126/science.1112014;
+RA   Carninci P., Kasukawa T., Katayama S., Gough J., Frith M.C., Maeda N.,
+RA   Oyama R., Ravasi T., Lenhard B., Wells C., Kodzius R., Shimokawa K.,
+RA   Bajic V.B., Brenner S.E., Batalov S., Forrest A.R., Zavolan M.,
+RA   Davis M.J., Wilming L.G., Aidinis V., Allen J.E.,
+RA   Ambesi-Impiombato A., Apweiler R., Aturaliya R.N., Bailey T.L.,
+RA   Bansal M., Baxter L., Beisel K.W., Bersano T., Bono H., Chalk A.M.,
+RA   Chiu K.P., Choudhary V., Christoffels A., Clutterbuck D.R.,
+RA   Crowe M.L., Dalla E., Dalrymple B.P., de Bono B., Della Gatta G.,
+RA   di Bernardo D., Down T., Engstrom P., Fagiolini M., Faulkner G.,
+RA   Fletcher C.F., Fukushima T., Furuno M., Futaki S., Gariboldi M.,
+RA   Georgii-Hemming P., Gingeras T.R., Gojobori T., Green R.E.,
+RA   Gustincich S., Harbers M., Hayashi Y., Hensch T.K., Hirokawa N.,
+RA   Hill D., Huminiecki L., Iacono M., Ikeo K., Iwama A., Ishikawa T.,
+RA   Jakt M., Kanapin A., Katoh M., Kawasawa Y., Kelso J., Kitamura H.,
+RA   Kitano H., Kollias G., Krishnan S.P., Kruger A., Kummerfeld S.K.,
+RA   Kurochkin I.V., Lareau L.F., Lazarevic D., Lipovich L., Liu J.,
+RA   Liuni S., McWilliam S., Madan Babu M., Madera M., Marchionni L.,
+RA   Matsuda H., Matsuzawa S., Miki H., Mignone F., Miyake S., Morris K.,
+RA   Mottagui-Tabar S., Mulder N., Nakano N., Nakauchi H., Ng P.,
+RA   Nilsson R., Nishiguchi S., Nishikawa S., Nori F., Ohara O.,
+RA   Okazaki Y., Orlando V., Pang K.C., Pavan W.J., Pavesi G., Pesole G.,
+RA   Petrovsky N., Piazza S., Reed J., Reid J.F., Ring B.Z., Ringwald M.,
+RA   Rost B., Ruan Y., Salzberg S.L., Sandelin A., Schneider C.,
+RA   Schoenbach C., Sekiguchi K., Semple C.A., Seno S., Sessa L., Sheng Y.,
+RA   Shibata Y., Shimada H., Shimada K., Silva D., Sinclair B.,
+RA   Sperling S., Stupka E., Sugiura K., Sultana R., Takenaka Y., Taki K.,
+RA   Tammoja K., Tan S.L., Tang S., Taylor M.S., Tegner J., Teichmann S.A.,
+RA   Ueda H.R., van Nimwegen E., Verardo R., Wei C.L., Yagi K.,
+RA   Yamanishi H., Zabarovsky E., Zhu S., Zimmer A., Hide W., Bult C.,
+RA   Grimmond S.M., Teasdale R.D., Liu E.T., Brusic V., Quackenbush J.,
+RA   Wahlestedt C., Mattick J.S., Hume D.A., Kai C., Sasaki D., Tomaru Y.,
+RA   Fukuda S., Kanamori-Katayama M., Suzuki M., Aoki J., Arakawa T.,
+RA   Iida J., Imamura K., Itoh M., Kato T., Kawaji H., Kawagashira N.,
+RA   Kawashima T., Kojima M., Kondo S., Konno H., Nakano K., Ninomiya N.,
+RA   Nishio T., Okada M., Plessy C., Shibata K., Shiraki T., Suzuki S.,
+RA   Tagami M., Waki K., Watahiki A., Okamura-Oho Y., Suzuki H., Kawai J.,
+RA   Hayashizaki Y.;
+RT   "The transcriptional landscape of the mammalian genome.";
+RL   Science 309:1559-1563(2005).
+RN   [3] {ECO:0000312|Proteomes:UP000000589}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S.,
+RA   She X., Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W.,
+RA   Kapustin Y., Meric P., Maglott D., Birtle Z., Marques A.C., Graves T.,
+RA   Zhou S., Teague B., Potamousis K., Churas C., Place M., Herschleb J.,
+RA   Runnheim R., Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z.,
+RA   Lindblad-Toh K., Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of
+RT   the mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [4] {ECO:0000312|EMBL:AAI32407.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Lung;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+CC   -!- FUNCTION: Lectin-like receptor for NK (natural killer) cells.
+CC       Heterodimer formation with KLRE1 mediates NK cell cytolytic
+CC       activity. {ECO:0000250|UniProtKB:Q5DT37}.
+CC   -!- SUBUNIT: Heterodimer with KLRE1. {ECO:0000250|UniProtKB:Q5DT37}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane
+CC       {ECO:0000250|UniProtKB:Q5DT37}; Single-pass type II membrane
+CC       protein {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in natural killer (NK) cells.
+CC       {ECO:0000269|PubMed:15650876}.
+DR   EMBL; AY324873; AAR00558.1; -; mRNA.
+DR   EMBL; AK040915; BAC30742.1; -; mRNA.
+DR   EMBL; AC171002; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC132406; AAI32407.1; -; mRNA.
+DR   EMBL; BC132408; AAI32409.1; -; mRNA.
+DR   RefSeq; NP_796129.2; NM_177155.4.
+DR   UniGene; Mm.123265; -.
+DR   STRING; 10090.ENSMUSP00000052805; -.
+DR   PaxDb; Q8BS07; -.
+DR   Ensembl; ENSMUST00000050385; ENSMUSP00000052805; ENSMUSG00000043932.
+DR   GeneID; 320407; -.
+DR   KEGG; mmu:320407; -.
+DR   UCSC; uc009egr.2; mouse.
+DR   CTD; 320407; -.
+DR   MGI; MGI:2443965; Klri2.
+DR   eggNOG; ENOG410JC0N; Eukaryota.
+DR   eggNOG; ENOG4111506; LUCA.
+DR   GeneTree; ENSGT00730000110282; -.
+DR   HOGENOM; HOG000059259; -.
+DR   HOVERGEN; HBG055205; -.
+DR   OMA; WEDGTEV; -.
+DR   OrthoDB; EOG091G0NQ3; -.
+DR   TreeFam; TF336674; -.
+DR   Proteomes; UP000000589; Chromosome 6.
+DR   Bgee; ENSMUSG00000043932; -.
+DR   GO; GO:0005887; C:integral component of plasma membrane; ISO:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   CDD; cd03593; CLECT_NK_receptors_like; 1.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   InterPro; IPR033992; NKR-like_CTLD.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Complete proteome; Disulfide bond; Glycoprotein;
+KW   Lectin; Membrane; Receptor; Reference proteome; Signal-anchor;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN         1    248       Killer cell lectin-like receptor
+FT                                subfamily I member 2.
+FT   TOPO_DOM      1     79       Cytoplasmic. {ECO:0000305}.
+FT   TRANSMEM     80    100       Helical; Signal-anchor for type II
+FT                                membrane protein. {ECO:0000255}.
+FT   TOPO_DOM    101    248       Extracellular. {ECO:0000305}.
+FT   DOMAIN      139    245       C-type lectin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00040}.
+FT   CARBOHYD    197    197       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    214    214       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    220    220       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   DISULFID    132    145       {ECO:0000250|UniProtKB:Q13241}.
+FT   DISULFID    161    244       {ECO:0000250|UniProtKB:Q13241}.
+FT   DISULFID    223    236       {ECO:0000250|UniProtKB:Q13241}.
+FT   CONFLICT    227    227       R -> H (in Ref. 2; BAC30742).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   248 AA;  28848 MW;  3C2B7793879078EC CRC64;
+     MHKKKHIKHG TNKQEIINIG TKSPTFQEKQ RPSKTDQRST VWREEQKKQE LKVHRIFHPQ
+     PRTGFDVGKG IDPWLTTWQM ITVILATLCI ILVTKVGFLI PSLFSKGEKQ SRKFSLLDPL
+     CDRNDDSSCD FCSSDWIAFG NNFYCVFREN SKTWVESQSA CEELNSHLVI IDSKAEVENL
+     LLFEMDGWIL HRMDGTNSSR LWGNDIKIRN TLMNDSEKKN HSCHYLRGNI FMPDECSAKK
+     TYICEFNI
+//
+ID   KLRI2_RAT               Unreviewed;       247 AA.
+AC   Q5DT37;
+DT   29-MAR-2005, integrated into UniProtKB/TrEMBL.
+DT   29-MAR-2005, sequence version 1.
+DT   30-AUG-2017, entry version 85.
+DE   RecName: Full=Killer cell lectin-like receptor subfamily I member 2 {ECO:0000303|PubMed:15650876};
+GN   Name=Klri2 {ECO:0000303|PubMed:15650876};
+OS   Rattus norvegicus (Rat).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+OC   Muroidea; Muridae; Murinae; Rattus.
+OX   NCBI_TaxID=10116 {ECO:0000312|Proteomes:UP000002494};
+RN   [1] {ECO:0000312|EMBL:AAR00557.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=Fischer 344 {ECO:0000312|EMBL:AAR00557.1};
+RX   PubMed=15650876; DOI=10.1007/s00251-004-0759-x;
+RA   Saether P.C., Westgaard I.H., Flornes L.M., Hoelsbrekken S.E.,
+RA   Ryan J.C., Fossum S., Dissen E.;
+RT   "Molecular cloning of KLRI1 and KLRI2, a novel pair of lectin-like
+RT   natural killer-cell receptors with opposing signalling motifs.";
+RL   Immunogenetics 56:833-839(2005).
+RN   [2] {ECO:0000312|Proteomes:UP000002494}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Brown Norway;
+RX   PubMed=15057822; DOI=10.1038/nature02426;
+RA   Gibbs R.A., Weinstock G.M., Metzker M.L., Muzny D.M., Sodergren E.J.,
+RA   Scherer S., Scott G., Steffen D., Worley K.C., Burch P.E., Okwuonu G.,
+RA   Hines S., Lewis L., Deramo C., Delgado O., Dugan-Rocha S., Miner G.,
+RA   Morgan M., Hawes A., Gill R., Holt R.A., Adams M.D., Amanatides P.G.,
+RA   Baden-Tillson H., Barnstead M., Chin S., Evans C.A., Ferriera S.,
+RA   Fosler C., Glodek A., Gu Z., Jennings D., Kraft C.L., Nguyen T.,
+RA   Pfannkoch C.M., Sitter C., Sutton G.G., Venter J.C., Woodage T.,
+RA   Smith D., Lee H.-M., Gustafson E., Cahill P., Kana A.,
+RA   Doucette-Stamm L., Weinstock K., Fechtel K., Weiss R.B., Dunn D.M.,
+RA   Green E.D., Blakesley R.W., Bouffard G.G., De Jong P.J., Osoegawa K.,
+RA   Zhu B., Marra M., Schein J., Bosdet I., Fjell C., Jones S.,
+RA   Krzywinski M., Mathewson C., Siddiqui A., Wye N., McPherson J.,
+RA   Zhao S., Fraser C.M., Shetty J., Shatsman S., Geer K., Chen Y.,
+RA   Abramzon S., Nierman W.C., Havlak P.H., Chen R., Durbin K.J., Egan A.,
+RA   Ren Y., Song X.-Z., Li B., Liu Y., Qin X., Cawley S., Cooney A.J.,
+RA   D'Souza L.M., Martin K., Wu J.Q., Gonzalez-Garay M.L., Jackson A.R.,
+RA   Kalafus K.J., McLeod M.P., Milosavljevic A., Virk D., Volkov A.,
+RA   Wheeler D.A., Zhang Z., Bailey J.A., Eichler E.E., Tuzun E.,
+RA   Birney E., Mongin E., Ureta-Vidal A., Woodwark C., Zdobnov E.,
+RA   Bork P., Suyama M., Torrents D., Alexandersson M., Trask B.J.,
+RA   Young J.M., Huang H., Wang H., Xing H., Daniels S., Gietzen D.,
+RA   Schmidt J., Stevens K., Vitt U., Wingrove J., Camara F., Mar Alba M.,
+RA   Abril J.F., Guigo R., Smit A., Dubchak I., Rubin E.M., Couronne O.,
+RA   Poliakov A., Huebner N., Ganten D., Goesele C., Hummel O.,
+RA   Kreitler T., Lee Y.-A., Monti J., Schulz H., Zimdahl H.,
+RA   Himmelbauer H., Lehrach H., Jacob H.J., Bromberg S.,
+RA   Gullings-Handley J., Jensen-Seaman M.I., Kwitek A.E., Lazar J.,
+RA   Pasko D., Tonellato P.J., Twigger S., Ponting C.P., Duarte J.M.,
+RA   Rice S., Goodstadt L., Beatson S.A., Emes R.D., Winter E.E.,
+RA   Webber C., Brandt P., Nyakatura G., Adetobi M., Chiaromonte F.,
+RA   Elnitski L., Eswara P., Hardison R.C., Hou M., Kolbe D., Makova K.,
+RA   Miller W., Nekrutenko A., Riemer C., Schwartz S., Taylor J., Yang S.,
+RA   Zhang Y., Lindpaintner K., Andrews T.D., Caccamo M., Clamp M.,
+RA   Clarke L., Curwen V., Durbin R.M., Eyras E., Searle S.M., Cooper G.M.,
+RA   Batzoglou S., Brudno M., Sidow A., Stone E.A., Payseur B.A.,
+RA   Bourque G., Lopez-Otin C., Puente X.S., Chakrabarti K., Chatterji S.,
+RA   Dewey C., Pachter L., Bray N., Yap V.B., Caspi A., Tesler G.,
+RA   Pevzner P.A., Haussler D., Roskin K.M., Baertsch R., Clawson H.,
+RA   Furey T.S., Hinrichs A.S., Karolchik D., Kent W.J., Rosenbloom K.R.,
+RA   Trumbower H., Weirauch M., Cooper D.N., Stenson P.D., Ma B., Brent M.,
+RA   Arumugam M., Shteynberg D., Copley R.R., Taylor M.S., Riethman H.,
+RA   Mudunuri U., Peterson J., Guyer M., Felsenfeld A., Old S., Mockrin S.,
+RA   Collins F.S.;
+RT   "Genome sequence of the Brown Norway rat yields insights into
+RT   mammalian evolution.";
+RL   Nature 428:493-521(2004).
+RN   [3] {ECO:0000305}
+RP   FUNCTION, SUBUNIT, AND SUBCELLULAR LOCATION.
+RX   PubMed=18713988; DOI=10.4049/jimmunol.181.5.3177;
+RA   Saether P.C., Westgaard I.H., Hoelsbrekken S.E., Benjamin J.,
+RA   Lanier L.L., Fossum S., Dissen E.;
+RT   "KLRE/I1 and KLRE/I2: a novel pair of heterodimeric receptors that
+RT   inversely regulate NK cell cytotoxicity.";
+RL   J. Immunol. 181:3177-3182(2008).
+CC   -!- FUNCTION: Lectin-like receptor for NK (natural killer) cells.
+CC       Heterodimer formation with KLRE1 mediates NK cell cytolytic
+CC       activity. {ECO:0000269|PubMed:18713988}.
+CC   -!- SUBUNIT: Heterodimer with KLRE1. {ECO:0000269|PubMed:18713988}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:15650876,
+CC       ECO:0000269|PubMed:18713988}; Single-pass type II membrane protein
+CC       {ECO:0000255}.
+CC   -!- TISSUE SPECIFICITY: Expressed in natural killer (NK) cells.
+CC       {ECO:0000269|PubMed:15650876}.
+DR   EMBL; AY324871; AAR00557.1; -; mRNA.
+DR   EMBL; AC108288; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   RefSeq; NP_001012666.1; NM_001012648.1.
+DR   UniGene; Rn.160081; -.
+DR   STRING; 10116.ENSRNOP00000036796; -.
+DR   Ensembl; ENSRNOT00000082002; ENSRNOP00000074478; ENSRNOG00000057643.
+DR   GeneID; 503650; -.
+DR   KEGG; rno:503650; -.
+DR   UCSC; RGD:1359205; rat.
+DR   CTD; 320407; -.
+DR   RGD; 1359205; Klri2.
+DR   eggNOG; ENOG410JC0N; Eukaryota.
+DR   eggNOG; ENOG4111506; LUCA.
+DR   GeneTree; ENSGT00730000110282; -.
+DR   HOGENOM; HOG000059259; -.
+DR   HOVERGEN; HBG055205; -.
+DR   OMA; WEDGTEV; -.
+DR   OrthoDB; EOG091G0NQ3; -.
+DR   TreeFam; TF336674; -.
+DR   Proteomes; UP000002494; Chromosome 4.
+DR   Bgee; ENSRNOG00000057643; -.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IDA:MGI.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.100.10; -; 1.
+DR   InterPro; IPR001304; C-type_lectin-like.
+DR   InterPro; IPR016186; C-type_lectin-like/link.
+DR   InterPro; IPR016187; CTDL_fold.
+DR   Pfam; PF00059; Lectin_C; 1.
+DR   SMART; SM00034; CLECT; 1.
+DR   SUPFAM; SSF56436; SSF56436; 1.
+DR   PROSITE; PS50041; C_TYPE_LECTIN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Complete proteome; Disulfide bond; Glycoprotein;
+KW   Lectin; Membrane; Receptor; Reference proteome; Signal-anchor;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN         1    247       Killer cell lectin-like receptor
+FT                                subfamily I member 2.
+FT   TOPO_DOM      1     79       Cytoplasmic. {ECO:0000305}.
+FT   TRANSMEM     80    100       Helical. {ECO:0000255}.
+FT   TOPO_DOM    101    247       Extracellular. {ECO:0000305}.
+FT   DOMAIN      139    243       C-type lectin. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00040}.
+FT   CARBOHYD    125    125       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    196    196       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    212    212       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   CARBOHYD    218    218       N-linked (GlcNAc...) asparagine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00498}.
+FT   DISULFID    160    242       {ECO:0000250|UniProtKB:Q13241}.
+FT   DISULFID    221    234       {ECO:0000250|UniProtKB:Q13241}.
+SQ   SEQUENCE   247 AA;  28814 MW;  90134CE6377ACA3B CRC64;
+     MPRKKQNERG TNKQEIINIE TKSSTFQEKQ RQSKTDQIST VWRKEQKKQE LKVHTELHPQ
+     HRTGFNEDKG TDPWLTTWRI ITVILGTSCI ILVTKVGFLI PNLFSRGEKR SRELSLLDSL
+     CLKNNDSFCD LCSHDWIAFG NNFYLFFRGT KTWAESKSAC EELNSYLLDI DSRAELENLL
+     LFEINGWILF KTDAINRSLR KNYIKIHQTL FNDSEKKNHS CHYLSGNQFS AGDCSSKKAY
+     TCEFNLQ
+//
