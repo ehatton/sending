@@ -33,9 +33,12 @@ def tidy():
     for files in curated_files:
         if files:
             try:
-                click.secho(f"Moving {str(files)} to old directory.")
+                click.secho(f"Backing up {str(files)} to old directory.")
+                for filepath in list(files):
+                    print(f"Moving {filepath.name}...")
                 files.backup()
                 files.delete()
+                click.echo('---')
             except FileNotFoundError as err:
                 click.secho("There was a problem backing up files", fg="red")
                 click.echo(err)
