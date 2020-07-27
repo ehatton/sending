@@ -32,7 +32,7 @@ def check() -> None:
     logfiles = LogFiles()
     _check_logfiles(logfiles)
 
-    # Check flat file (*.new, *.pep, *.sub, *.pid, *.seq) syntax.
+    # Check flatfile (*.new, *.pep, *.sub, *.pid, *.seq) syntax.
     tremblfiles = TrEMBLFiles()
     newfiles = NewFiles()
     pepfiles = PepFiles()
@@ -124,14 +124,7 @@ def _check_trembl_accessions(tremblfiles: TrEMBLFiles) -> None:
         click.secho(f"Checking accessions and protein ids in {str(tremblfiles)}...")
         trembl_checker = TrEMBLAccessionChecker(trembl_files=tremblfiles)
         trembl_checker.check()
-        if trembl_checker.ok:
-            click.secho(
-                "Correct accessions and protein ids in TrEMBL entries.", fg="green"
-            )
-        else:
-            click.secho(
-                "Wrong accessions and/or protein ids in TrEMBL entries.", fg="red"
-            )
+
         click.echo(
             f"Accessions in curated entries:\t{' '.join(i for i in trembl_checker.accessions)}"
         )
@@ -144,6 +137,14 @@ def _check_trembl_accessions(tremblfiles: TrEMBLFiles) -> None:
         click.echo(
             f"Protein ids in TrEMBL entries:\t{' '.join(i for i in trembl_checker.trembl_pids)}"
         )
+        if trembl_checker.ok:
+            click.secho(
+                "Correct accessions and protein ids in TrEMBL entries.", fg="green"
+            )
+        else:
+            click.secho(
+                "Wrong accessions and/or protein ids in TrEMBL entries.", fg="red"
+            )
     else:
         click.echo(
             f"No {str(tremblfiles)} submitted, skipping accession and PID checks."
