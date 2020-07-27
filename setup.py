@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="sending",
-    version="0.0.1",
+    version="0.0.2",
     url="https://github.com/ehatton/sending",
     author="Emma Hatton-Ellis",
     author_email="ehattonellis@gmail.com",
