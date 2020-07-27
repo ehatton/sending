@@ -1,4 +1,4 @@
-name: sending
+name: sending-dev
 channels:
   - conda-forge
   - defaults
