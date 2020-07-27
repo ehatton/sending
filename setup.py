@@ -8,7 +8,12 @@ setup(
     author_email="ehattonellis@gmail.com",
     license="MIT",
     packages=["sending"],
-    install_requires=["click", "pysftp", "requests"],
+    install_requires=[
+        "click",
+        "colorama; platform_system=='Windows'",
+        "pysftp",
+        "requests",
+    ],
     python_requires=">=3.7",
     entry_points={"console_scripts": ["sending=sending.cli:cli",],},
     classifiers=[
