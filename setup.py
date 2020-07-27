@@ -2,12 +2,12 @@ from setuptools import setup
 
 setup(
     name="sending",
-    version="0.0.1",
+    version="0.0.2",
     url="https://github.com/ehatton/sending",
     author="Emma Hatton-Ellis",
     author_email="ehattonellis@gmail.com",
     license="MIT",
-    py_modules=["sending"],
+    packages=["sending"],
     install_requires=["click", "pysftp", "requests"],
     python_requires=">=3.7",
     entry_points={"console_scripts": ["sending=sending.cli:cli",],},
@@ -19,4 +19,3 @@ setup(
         "Topic :: Utilities",
     ],
 )
-
