@@ -8,10 +8,14 @@ source:
 
 requirements:
   build:
-    - python
+    - python >=3.7
     - pip
+    - setuptools
   run:
-    - python
+    - python >=3.7
+    - click
+    - pysftp
+    - requests
 
 build:
   noarch: python
