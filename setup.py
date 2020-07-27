@@ -15,7 +15,6 @@ setup(
         "Environment :: Console",
         "Intended Audience :: Science/Research",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: Microsoft :: Windows",
         "Programming Language :: Python :: 3 :: Only",
         "Topic :: Utilities",
     ],
