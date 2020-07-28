@@ -1,8 +1,11 @@
 from setuptools import setup
 
+with open("sending/version.py", "r") as infile:
+    _, VERSION = infile.readline().strip().split("=")
+
 setup(
     name="sending",
-    version="0.0.2",
+    version=VERSION,
     url="https://github.com/ehatton/sending",
     author="Emma Hatton-Ellis",
     author_email="ehattonellis@gmail.com",
