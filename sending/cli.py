@@ -2,6 +2,7 @@ import os
 
 import click
 
+from sending import __version__
 from sending.check import check
 from sending.send import send
 from sending.tidy import tidy
@@ -9,6 +10,7 @@ from sending.tidy import tidy
 CLI_HELP = "Tools for checking and sending curated files."
 
 
+@click.version_option(version=__version__)
 @click.group(help=CLI_HELP)
 def cli():
     """Main entry point for sending program.
@@ -21,7 +23,6 @@ def cli():
         )
 
 
-# Add the various commands to the group.
 cli.add_command(check)
 cli.add_command(send)
 cli.add_command(tidy)
