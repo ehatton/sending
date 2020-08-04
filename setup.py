@@ -14,7 +14,7 @@ setup(
     install_requires=[
         "click",
         "colorama; platform_system=='Windows'",
-        "pysftp",
+        "paramiko",
         "requests",
     ],
     python_requires=">=3.7",

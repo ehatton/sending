@@ -1,11 +1,11 @@
 import datetime
 import os
 import tempfile
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from typing import List, Union
 
 import click
-import pysftp
+import paramiko
 
 from sending.curation_files import (
     LogFiles,
@@ -44,23 +44,38 @@ def send() -> None:
         remote_server = os.environ["REMOTE_SERVER"]
         remote_user = os.environ["REMOTE_USER"]
         remote_key = os.environ["REMOTE_KEY"]
+        known_hosts = os.environ['KNOWN_HOSTS']
     except KeyError as err:
         raise click.UsageError(
-            f"Could not detect an environment variable for {err}, aborting."
+            f"Could not detect an environment variable for {err}s."
         )
 
     # Create SFTP connection and do the transfers
-    with pysftp.Connection(
-        remote_server, username=remote_user, private_key=remote_key
-    ) as sftp:
+    try:
+        key = paramiko.DSSKey.from_private_key_file(remote_key)
+    except FileNotFoundError as err:
+        raise click.UsageError(f"There was a problem loading the remote key file, please check your configuration:\n{err}")
+        
+    try:
+        hostkeys = paramiko.HostKeys(filename=known_hosts)
+        hkey = hostkeys[remote_server]['ssh-rsa']
+    except FileNotFoundError as err:
+        raise click.UsageError(f"There was a problem loading the known hosts file, please check your configuration:\n{err}")
+    except KeyError as err:
+        raise click.UsageError(f"Host {str(err)} not found in known_hosts file.")
+
+    transport = paramiko.Transport((remote_server, 22))
+    transport.connect(username=remote_user, pkey=key, hostkey=hkey)
+    with paramiko.SFTPClient.from_transport(transport) as sftp:
         new_entries = [trembl_files, new_files, pep_files, sub_files]
         _send_new_entries(new_entries, sftp)
         for updates in [logfiles, pid_files, seq_files]:
-            _send_updates(updates, sftp)
+                _send_updates(updates, sftp)
+    transport.close()
 
 
 def _send_updates(
-    files: Union[LogFiles, PidFiles, SeqFiles], sftp: pysftp.Connection
+    files: Union[LogFiles, PidFiles, SeqFiles], sftp: paramiko.SFTPClient
 ) -> None:
     """Sends update files to the remote FTP server.
     
@@ -70,14 +85,15 @@ def _send_updates(
     
     Args:
         files: list of CurationFiles objects (LogFiles, PidFiles, SeqFiles).
-        sftp: pysftp Connection object.
+        sftp: paramiko SFTPClient object.
     
     """
     if files:
-        with sftp.cd(files.remote_dir):
-            for f in files:
-                sftp.put(f)
-                click.echo(f"Sent {f.name} to {files.remote_dir}")
+        for f in files:
+            localpath = str(f)
+            remotepath = str(PurePosixPath(str(files.remote_dir), f.name))
+            sftp.put(localpath=localpath, remotepath=remotepath)
+            click.echo(f"Sent {f.name} to {files.remote_dir}")
         click.secho(f"Sent all {str(files)} to {REMOTE_HOST_NAME}.", fg="green")
         click.echo("---")
     else:
@@ -87,7 +103,7 @@ def _send_updates(
 
 def _send_new_entries(
     files: List[Union[TrEMBLFiles, NewFiles, PepFiles, SubFiles]],
-    sftp: pysftp.Connection,
+    sftp: paramiko.SFTPClient,
 ) -> None:
     """Sends new entries to the remote FTP server. 
     
@@ -100,7 +116,7 @@ def _send_new_entries(
     Args:
         trembl_files: TrEMBLFiles object
         new_files: NewFiles object
-        sftp: pysftp Connection object
+        sftp: paramiko SFTPClient object
     """
 
     if any(files):
@@ -120,11 +136,12 @@ def _send_new_entries(
                             f"Adding file {file.name} to concatenated file {allnew.name}"
                         )
             # Transfer allnew file to remote server
-            with sftp.cd(remote_dir):
-                sftp.put(allnew)
-                click.echo(f"Sent {allnew.name} to {remote_dir}")
-                click.secho(f"Sent all new files to {REMOTE_HOST_NAME}.", fg="green")
-                click.echo("---")
+            localpath = str(allnew)
+            remotepath = str(PurePosixPath(str(remote_dir), allnew.name))
+            sftp.put(localpath=localpath, remotepath=remotepath)
+            click.echo(f"Sent {allnew.name} to {remote_dir}")
+            click.secho(f"Sent all new files to {REMOTE_HOST_NAME}.", fg="green")
+            click.echo("---")
     else:
         click.echo("No new files to send.")
         click.echo("---")
