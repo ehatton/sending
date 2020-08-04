@@ -1,10 +1,12 @@
+{% set data = load_setup_py_data() %}
+
 package:
   name: sending
-  version: "{{ load_setup_py_data().version }}"
+  version: {{ data['version'] }}
 
 source:
-  git_rev: "v{{ load_setup_py_data().version }}"
-  git_url: https://github.com/ehatton/sending.git
+  git_rev: v{{ data['version'] }}
+  git_url: ../
 
 requirements:
   build:
