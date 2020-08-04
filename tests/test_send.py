@@ -2,9 +2,9 @@ import pytest
 from sending import send
 from sending.curation_files import LogFiles, NewFiles, TrEMBLFiles
 from unittest import mock
-from click.testing import CliRunner
 
 
+# TODO: add autospec to mock
 @pytest.fixture
 def mock_connection():
     # Mocks the pysftp Connection object.
