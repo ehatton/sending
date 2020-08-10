@@ -30,7 +30,7 @@ class NewAccessionChecker:
     """
 
     def __init__(self, files: Union[NewFiles, PepFiles, SubFiles]):
-        self.entries: List[Entry] = files.entries
+        self.entries: List[Entry] = files.get_entries()
         self.accessions: List[str] = files.get_accessions()
         self.trembl_accessions: Optional[List[str]] = None
         self.entries_with_error: List[Tuple[str, List[str]]] = []

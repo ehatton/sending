@@ -5,6 +5,7 @@ import click
 from sending import __version__
 from sending.check import check
 from sending.send import send
+from sending.info import info
 from sending.tidy import tidy
 
 CLI_HELP = "Tools for checking and sending curated files."
@@ -25,6 +26,7 @@ def cli():
 
 cli.add_command(check)
 cli.add_command(send)
+cli.add_command(info)
 cli.add_command(tidy)
 
 

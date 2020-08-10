@@ -30,8 +30,8 @@ def test_len(curation_files: CurationFiles):
     assert len(curation_files) == 2
 
 
-def test_entries(curation_files: CurationFiles):
-    assert len(curation_files.entries) == 7
+def test_get_entries(curation_files: CurationFiles):
+    assert len(curation_files.get_entries()) == 7
 
 
 def test_get_accessions(curation_files: CurationFiles):

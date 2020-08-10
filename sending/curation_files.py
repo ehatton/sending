@@ -44,7 +44,6 @@ class CurationFiles:
         self.remote_dir: Optional[str] = remote_dir
         self._valid_suffixes: Tuple[str, ...] = valid_suffixes
         self._parse: Callable[[TextIO], Iterator[Entry]] = parser
-        self.entries: List[Entry] = self._get_entries()
 
     def __repr__(self) -> str:
         return f"CurationFiles('{str(self.submission_dir)}')"
@@ -111,14 +110,14 @@ class CurationFiles:
         """Returns a list of all UniProt accessions found in the entries
         (including secondary accessions).
         """
-        accessions = list(chain.from_iterable(x.accessions for x in self.entries))
+        accessions = list(chain.from_iterable(x.accessions for x in self.get_entries()))
         return accessions
 
     def get_pids(self) -> List[str]:
         """Returns a list of all protein ids (EMBL CDS identifiers) found in the
         entries.
         """
-        pids = list(chain.from_iterable(x.pids for x in self.entries))
+        pids = list(chain.from_iterable(x.pids for x in self.get_entries()))
         return pids
 
     def get_text(self) -> str:
@@ -129,7 +128,7 @@ class CurationFiles:
             text += file.read_text()
         return text
 
-    def _get_entries(self) -> List[Entry]:
+    def get_entries(self) -> List[Entry]:
         """Returns a list of Entry objects for all entries in the files.
         """
         text = self.get_text()
