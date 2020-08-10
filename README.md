@@ -99,6 +99,7 @@ Usage examples can be found in the [.env](/tests/.env) file in the tests folder.
 - REMOTE_USER
 - REMOTE_SERVER
 - REMOTE_KEY
+- KNOWN_HOSTS
 
 ### Server for retrieval of TrEMBL entries (required for accession checkers)
 
