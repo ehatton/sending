@@ -26,4 +26,4 @@ def info():
     ]
 
     for f in files:
-        click.echo(f"{str(f)}:\t{len(f)} files, {len(f.get_entries())} entries.")
+        click.echo(f"{str(f)}\tfiles: {len(f)}\tentries: {len(f.get_entries())}")
