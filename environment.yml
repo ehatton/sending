@@ -13,4 +13,3 @@ dependencies:
   - pysftp
   - requests
   - vcrpy
-prefix: C:\Users\ehatt\Anaconda3\envs\sending
