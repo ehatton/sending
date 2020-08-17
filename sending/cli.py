@@ -19,7 +19,7 @@ def cli():
     # Quick and dirty check to see if the user has loaded their configuration
     # (environment variables) before running the program.
     if os.getenv("LOG_DIR") is None:
-        raise click.UsageError(
+        raise click.ClickException(
             "Environment variables not detected, aborting. Please refer to documentation on Confluence for configuration settings."
         )
 
