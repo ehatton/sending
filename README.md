@@ -68,13 +68,13 @@ There are four commands for the checking, information, sending and backup stages
 
     This automatically transfers all the files to the remote FTP server. New entries are concatenated into a single file named allnew with a date stamp appended to the filename (e.g. allnew_20200707.swp).
 
-3. To back up files and clean submission directories ready for the following week, use the __tidy__ command.
+4. To back up files and clean submission directories ready for the following week, use the __tidy__ command.
 
     ```cmd
     sending tidy
     ```
 
-4. Help documentation is also available:
+5. Help documentation is also available:
 
     ```cmd
     sending --help
