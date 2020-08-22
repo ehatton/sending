@@ -1,7 +1,9 @@
-from subprocess import CalledProcessError
+import os
+import subprocess
 from typing import List, Union
 
 import click
+import requests
 
 from sending.accession_checkers import NewAccessionChecker, TrEMBLAccessionChecker
 from sending.curation_files import (
@@ -69,7 +71,7 @@ def _check_logfiles(logfiles: LogFiles) -> None:
             else:
                 click.secho(f"Errors detected in {str(logfiles)}", fg="red")
                 click.echo(logfile_checker.error_report)
-        except CalledProcessError as err:
+        except subprocess.CalledProcessError as err:
             click.secho(
                 f"LogFile checker exited with error code {err.returncode}:", fg="red"
             )
@@ -103,7 +105,7 @@ def _check_flatfile(
                     f"{str(flatfiles)} failing syntax checks, please review.", fg="red"
                 )
                 click.echo(flatfile_checker.error_report)
-        except CalledProcessError as err:
+        except subprocess.CalledProcessError as err:
             click.secho(
                 f"FlatFile checker exited with error code {err.returncode}", fg="red"
             )
@@ -123,27 +125,32 @@ def _check_trembl_accessions(tremblfiles: TrEMBLFiles) -> None:
     if tremblfiles:
         click.secho(f"Checking accessions and protein ids in {str(tremblfiles)}...")
         trembl_checker = TrEMBLAccessionChecker(trembl_files=tremblfiles)
-        trembl_checker.check()
+        try:
+            trembl_checker.check()
 
-        click.echo(
-            f"Accessions in curated entries:\t{' '.join(i for i in trembl_checker.accessions)}"
-        )
-        click.echo(
-            f"Accessions in TrEMBL entries:\t{' '.join(i for i in trembl_checker.trembl_accessions)}"
-        )
-        click.echo(
-            f"Protein ids in curated entries:\t{' '.join(i for i in trembl_checker.pids)}"
-        )
-        click.echo(
-            f"Protein ids in TrEMBL entries:\t{' '.join(i for i in trembl_checker.trembl_pids)}"
-        )
-        if trembl_checker.ok:
-            click.secho(
-                "Correct accessions and protein ids in TrEMBL entries.", fg="green"
+            click.echo(
+                f"Accessions in curated entries:\t{' '.join(i for i in trembl_checker.accessions)}"
             )
-        else:
+            click.echo(
+                f"Accessions in TrEMBL entries:\t{' '.join(i for i in trembl_checker.trembl_accessions)}"
+            )
+            click.echo(
+                f"Protein ids in curated entries:\t{' '.join(i for i in trembl_checker.pids)}"
+            )
+            click.echo(
+                f"Protein ids in TrEMBL entries:\t{' '.join(i for i in trembl_checker.trembl_pids)}"
+            )
+            if trembl_checker.ok:
+                click.secho(
+                    "Correct accessions and protein ids in TrEMBL entries.", fg="green"
+                )
+            else:
+                click.secho(
+                    "Wrong accessions and/or protein ids in TrEMBL entries.", fg="red"
+                )
+        except requests.ConnectionError:
             click.secho(
-                "Wrong accessions and/or protein ids in TrEMBL entries.", fg="red"
+                f"Unable to connect to server: {os.environ['TREMBL_SERVER']}", fg="red"
             )
     else:
         click.echo(
@@ -164,18 +171,24 @@ def _check_new_accessions(newfiles: List[Union[NewFiles, PepFiles, SubFiles]]) -
         if f:
             click.echo(f"Checking secondary accessions in {str(f)}...")
             new_checker = NewAccessionChecker(f)
-            new_checker.check()
-            if new_checker.ok:
-                click.secho(f"Valid secondary accessions in {str(f)}.", fg="green")
-            else:
-                click.secho(
-                    f"Found invalid secondary accessions in {str(f)}.", fg="red"
-                )
-                for error in new_checker.entries_with_error:
-                    accession, invalid_accessions = error
-                    click.echo(
-                        f"{accession}: {' '.join(i for i in invalid_accessions)}"
+            try:
+                new_checker.check()
+                if new_checker.ok:
+                    click.secho(f"Valid secondary accessions in {str(f)}.", fg="green")
+                else:
+                    click.secho(
+                        f"Found invalid secondary accessions in {str(f)}.", fg="red"
                     )
+                    for error in new_checker.entries_with_error:
+                        accession, invalid_accessions = error
+                        click.echo(
+                            f"{accession}: {' '.join(i for i in invalid_accessions)}"
+                        )
+            except requests.ConnectionError:
+                click.secho(
+                    f"Unable to connect to server: {os.environ['TREMBL_SERVER']}",
+                    fg="red",
+                )
             click.echo("---")
 
         else:
