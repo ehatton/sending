@@ -36,7 +36,7 @@ Environment variables are used to configure the location of submission directori
 
 ## Usage
 
-There are three commands for the checking, sending and backup stages.
+There are four commands for the checking, information, sending and backup stages.
 
 1. To run checks on the files, use the __check__ command.
 
@@ -52,7 +52,15 @@ There are three commands for the checking, sending and backup stages.
 
     For pep and sub files, it checks that none of the secondary accessions are present in TrEMBL.
 
-2. To execute the FTP transfer, use the __send__ command.
+2. To view summary information about the files, use the __info__ command.
+
+    ```cmd
+    sending info
+    ```
+
+    This command lists the number of files, and the total number of entries created/updated, for each directory.
+
+3. To execute the FTP transfer, use the __send__ command.
 
     ```cmd
     sending send
@@ -60,13 +68,13 @@ There are three commands for the checking, sending and backup stages.
 
     This automatically transfers all the files to the remote FTP server. New entries are concatenated into a single file named allnew with a date stamp appended to the filename (e.g. allnew_20200707.swp).
 
-3. To back up files and clean submission directories ready for the following week, use the __tidy__ command.
+4. To back up files and clean submission directories ready for the following week, use the __tidy__ command.
 
     ```cmd
     sending tidy
     ```
 
-4. Help documentation is also available:
+5. Help documentation is also available:
 
     ```cmd
     sending --help

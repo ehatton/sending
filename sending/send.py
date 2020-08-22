@@ -44,9 +44,9 @@ def send() -> None:
         remote_server = os.environ["REMOTE_SERVER"]
         remote_user = os.environ["REMOTE_USER"]
         remote_key = os.environ["REMOTE_KEY"]
-        known_hosts = os.environ['KNOWN_HOSTS']
+        known_hosts = os.environ["KNOWN_HOSTS"]
     except KeyError as err:
-        raise click.UsageError(
+        raise click.ClickException(
             f"Could not detect an environment variable for {err}s."
         )
 
@@ -54,15 +54,19 @@ def send() -> None:
     try:
         key = paramiko.DSSKey.from_private_key_file(remote_key)
     except FileNotFoundError as err:
-        raise click.UsageError(f"There was a problem loading the remote key file, please check your configuration:\n{err}")
-        
+        raise click.ClickException(
+            f"There was a problem loading the remote key file, please check your configuration:\n{err}"
+        )
+
     try:
         hostkeys = paramiko.HostKeys(filename=known_hosts)
-        hkey = hostkeys[remote_server]['ssh-rsa']
+        hkey = hostkeys[remote_server]["ssh-rsa"]
     except FileNotFoundError as err:
-        raise click.UsageError(f"There was a problem loading the known hosts file, please check your configuration:\n{err}")
+        raise click.ClickException(
+            f"There was a problem loading the known hosts file, please check your configuration:\n{err}"
+        )
     except KeyError as err:
-        raise click.UsageError(f"Host {str(err)} not found in known_hosts file.")
+        raise click.ClickException(f"Host {str(err)} not found in known_hosts file.")
 
     transport = paramiko.Transport((remote_server, 22))
     transport.connect(username=remote_user, pkey=key, hostkey=hkey)
@@ -70,7 +74,7 @@ def send() -> None:
         new_entries = [trembl_files, new_files, pep_files, sub_files]
         _send_new_entries(new_entries, sftp)
         for updates in [logfiles, pid_files, seq_files]:
-                _send_updates(updates, sftp)
+            _send_updates(updates, sftp)
     transport.close()
 
 
