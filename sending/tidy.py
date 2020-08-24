@@ -38,12 +38,12 @@ def tidy():
                     print(f"Moving {filepath.name}...")
                 files.backup()
                 files.delete()
-                click.echo('---')
+                click.echo("---")
             except FileNotFoundError as err:
                 click.secho("There was a problem backing up files", fg="red")
                 click.echo(err)
                 click.echo("---")
         else:
-            click.secho(f"No {str(files)} subitted, skipping cleanup.")
+            click.secho(f"No {str(files)} submitted, skipping cleanup.")
             click.echo("---")
     click.secho("Backed up all files and cleaned submission directories.", fg="green")
