@@ -214,7 +214,7 @@ class PepFiles(CurationFiles):
         super().delete()
         new_dir = Path(os.environ["NEW_DIR"])
         for i in new_dir.iterdir():
-            if i.suffix in ["pep", "PEP"]:
+            if i.suffix in [".pep", ".PEP"]:
                 i.unlink()
 
 
@@ -243,7 +243,7 @@ class SubFiles(CurationFiles):
         super().delete()
         new_dir = Path(os.environ["NEW_DIR"])
         for i in new_dir.iterdir():
-            if i.suffix in ["sub", "SUB"]:
+            if i.suffix in [".sub", ".SUB"]:
                 i.unlink()
 
 
