@@ -6,7 +6,7 @@ Runs several sanity checks on the files (including syntax checkers), does the FT
 
 ## Requirements
 
-- Python 3.7 or higher (the [Anaconda](https://www.anaconda.com/products/individual)/[Miniconda](https://docs.conda.io/en/latest/miniconda.html) python distribution is recommended).
+- Python 3.8 or higher (the [Anaconda](https://www.anaconda.com/products/individual)/[Miniconda](https://docs.conda.io/en/latest/miniconda.html) python distribution is recommended).
 - UniProt curation environment, which includes the syntax checker scripts.
 - FTP credentials for connecting to the remote server.
 
@@ -118,3 +118,7 @@ Usage examples can be found in the [.env](/tests/.env) file in the tests folder.
 - BINPROT
 - PERLLIB
 - SPROT
+
+### URL for JIRA issue (optional)
+
+- JIRA_URL

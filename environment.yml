@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - anaconda-client 
+  - anaconda-client
   - black
   - click
   - conda-build

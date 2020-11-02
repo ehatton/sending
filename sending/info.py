@@ -1,3 +1,5 @@
+import os
+
 import click
 
 from sending.curation_files import (
@@ -27,3 +29,7 @@ def info():
 
     for f in files:
         click.echo(f"{str(f)}\tfiles: {len(f)}\tentries: {len(f.get_entries())}")
+
+    if jira_url := os.environ.get("JIRA_URL"):
+        click.echo()
+        click.echo(f"Don't forget to update the JIRA issue: {jira_url}")
