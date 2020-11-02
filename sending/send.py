@@ -52,7 +52,7 @@ def send() -> None:
 
     # Create SFTP connection and do the transfers
     try:
-        key = paramiko.DSSKey.from_private_key_file(remote_key)
+        key = paramiko.Ed25519Key.from_private_key_file(remote_key)
     except FileNotFoundError as err:
         raise click.ClickException(
             f"There was a problem loading the remote key file, please check your configuration:\n{err}"
