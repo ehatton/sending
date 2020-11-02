@@ -60,7 +60,7 @@ def send() -> None:
 
     try:
         hostkeys = paramiko.HostKeys(filename=known_hosts)
-        hkey = hostkeys[remote_server]["ssh-rsa"]
+        hkey = hostkeys[remote_server]["ecdsa-sha2-nistp256"]
     except FileNotFoundError as err:
         raise click.ClickException(
             f"There was a problem loading the known hosts file, please check your configuration:\n{err}"
